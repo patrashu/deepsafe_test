@@ -1,0 +1,7 @@
+version: "3.10"
+services:
+  fastapi:
+    image: test
+    ports:
+      - 8001:8001
+

@@ -1,0 +1,32 @@
+.sidebar__main {
+    color: black;
+    width: 300px;
+    height: calc(100vh - 200px);
+    border: 1px solid grey;
+}
+
+.sidebar__title{
+  background: #252526;
+  color: white;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.sidebar__item {
+    margin: 0px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    text-align: top;
+}
+
+
+.imageFolder {
+    margin-bottom: 10px;
+}
+
+.imageFolder:hover {
+    opacity: 0.7;
+    background-color: yellow;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.loginPage > img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.loginPage > input {
+  background-color: #ffffff24;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.loginPage > input:focus {
+  outline: 1px solid grey;
+}
+
+.loginPage > button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  background-color: #0095f6;
+  font-weight: bold;
+}
+
+.loginPage > button:hover {
+  cursor: pointer;
+}

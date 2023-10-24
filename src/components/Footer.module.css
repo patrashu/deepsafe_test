@@ -1,0 +1,19 @@
+.footer {
+  width: 100vw;
+  height: 20px;
+  background: red;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  overflow: hidden;
+  /* flex-basis: 100%; */
+  /* z-index: 1; */
+}
+
+.first {
+  width: 50px;
+  height: 20px;
+  background: green;
+  /* z-index: 1; */
+}

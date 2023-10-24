@@ -1,0 +1,11 @@
+{
+    "max_epochs": 20,
+    "image_size": 384,
+    "model_name": "segformer",
+    "backbone_name": "nvidia/mit-b0",
+    "model_params": {
+        "num_labels": 2,
+        "image_size": 384
+    },
+    "loss_params": {}
+}

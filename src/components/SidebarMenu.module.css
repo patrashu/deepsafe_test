@@ -1,0 +1,46 @@
+.sidebar__container {
+  width: 50px;
+  height: calc(100vh - 200px);
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  background-color: #f0f0f0;
+}
+
+.sidebar__topmenu {
+  top: 0%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__item {
+  margin: 15px 15px 0px 0px;
+  width: 20px;
+  height: 35px;
+}
+
+.sidebarBottomMenu {
+  bottom: 2%;
+  position: absolute;
+  padding: 0px;
+}
+
+ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menubtn__container > button {
+  display: flex;
+  cursor: pointer;
+  color: black;
+  border: 1px solid transparent;
+}
+
+.menubtn__container > button:hover {
+  background-color: grey;
+}

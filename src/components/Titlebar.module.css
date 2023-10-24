@@ -1,0 +1,118 @@
+.titleTopbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50px;
+  background-color: #217346;
+  color: white;
+}
+
+.titlebar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 45px;
+  margin: 0px;
+}
+
+.titlebar__left {
+  display: flex;
+  flex-direction: row;
+  width: calc(100vw - 200px);
+  height: 100%;
+  align-items: left;
+  justify-content: left;
+  -webkit-app-region: drag;
+}
+
+.titlebar__left > img {
+  width: 45px;
+  height: 100%;
+}
+
+.titlebar__right {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  width: 250px;
+  height: 95%;
+  color: white;
+}
+
+.titlebar__right > button {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* padding-top: 3px; */
+  margin-top: 9px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  background-color: #217346;
+}
+
+.titlebar__right > button:hover {
+  background-color: #107c41;
+}
+
+.titlebar__usericon {
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  color: black;
+  margin-left: 5px;
+  border-radius: 30px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+}
+
+.titlebar__windowbtn {
+  width: 16px;
+  height: 16px;
+  padding: 16px;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.titlebar__windowbtn:hover {
+  background-color: #2b7a44;
+}
+
+.topbar {
+  width: 100vw;
+  height: 30px;
+  padding-top: 5px;
+  background-color: #f0f0f0;
+}
+
+.topbar__option {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  margin-left: 5px;
+}
+
+.topbar__option > button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-right: 4px;
+  border: 1px solid transparent;
+}
+
+.topbar__option > button:hover {
+  border-bottom: 1px solid grey;
+}
+
+.topbar__option > button:focus {
+  border-bottom: 2px solid #317248;
+}

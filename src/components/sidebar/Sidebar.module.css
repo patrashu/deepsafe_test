@@ -1,0 +1,14 @@
+.sidebarMain {
+    margin: 0px;
+    padding-left: 0px;
+    width: 300px;
+    height: calc(100vh - 20px);
+    background: #90939f;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* display: inline-block; */
+    /* position: absolute; */
+    overflow: auto;
+}
+
+  

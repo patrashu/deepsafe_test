@@ -1,0 +1,29 @@
+.sidetopbar{
+  background: #252526;
+  color: white;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.hideSidebar{
+  width: 0px;
+  overflow: auto;
+}
+
+.projectDetail {
+  margin: 0px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  text-align: top;
+}
+
+.projectDetail > h4 {
+  margin: 0px;
+}
+
+.projectDetail:hover {
+  opacity: 0.7;
+  background-color: yellow;
+  cursor: pointer;
+}
